@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [
     motionCanvas({
       project: [
-        './src/installation.ts'
+        './src/installation.ts',
+        './src/blink.ts'
       ]
     }),
     ffmpeg(),
